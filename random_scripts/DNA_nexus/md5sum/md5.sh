@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 main() {
+    pip install --upgrade dxpy --quiet
     dx-download-all-inputs
 
     mkdir -p out/outdir
